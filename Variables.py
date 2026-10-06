@@ -1,6 +1,4 @@
 #variable is a container used to store values
-
-
 firstname = "Name"
 lastname = "Lname"
 school ="emobilis"

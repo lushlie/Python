@@ -9,8 +9,17 @@ cars = ["mercedes", "porche", "toyota", "bmw"]   #list - ordered and changeable
 fruits = ("apple", "banana", "cherry")    # tuple - ordered and unchangeable
 countries = {"italy", "kenya","france"}    #set - unordered and unchangeable
 capitals = {"kenya": "nairobi", "china": "beijing", "russia": "moscow"}   #dictionary - ordered and changeable
+
+#to get the value using key
+#print(dir(capitals))
+#print(help(capitals))
+print(capitals.get("kenya"))
+#or
+print(capitals["china"])
+
 #typecasting - changing value's datatypes
-#explicit manualing changing
+
+#explicit - manualing changing
 name = "bro"
 age  = 21
 gpa = 1.9
@@ -18,6 +27,9 @@ student = True
 
 age = float (age)
 print(age)
+#or
+print(float(age))
+
 gpa = int (gpa)
 print(gpa)
 student = str  (student)
@@ -41,6 +53,4 @@ print(type(student))
 print(cars)
 print(fruits)
 print(countries)
-#print(dir(capitals))
-#print(help(capitals))
 print(capitals.get("kenya"))
