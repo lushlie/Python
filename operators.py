@@ -27,8 +27,8 @@ print(number)
 print()
 
 #logical operators - and, or, not (multiple).
-print(30 > 20 and 56 == 10 ) #if any false all false
-print(30 > 20 or 56 == 10 ) #if any true all true
-print( not(30 > 20 and  56 == 10 )) # opposite
+print(30 > 20 and 56 == 10 ) #if any false all false (both must be true for true)
+print(30 > 20 or 56 == 10 ) #if any true all true (atleast 1 true to be true)
+print( not(30 > 20 and  56 == 10 )) # reverses (opposite of and/or)
 
 
